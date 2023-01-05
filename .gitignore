@@ -1,0 +1,11 @@
+.idea/
+build/
+dist/
+*.iml
+**/__pycache__/
+report/*report.html
+.vscode
+.pytest_cache
+plics.db
+.env
+report/*.html

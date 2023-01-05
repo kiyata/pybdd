@@ -1,0 +1,175 @@
+{
+    "ENV": "local",
+    "dbserver": "GL-D-PLISQL-L1",
+    "FINYR": "FY2021-22",
+    "HASHALGORYGTHM": "sha256",
+    "FinancialYearStartDate": "2021-04-01",
+    "NVARCHAR": "false",
+    "MIXEDECONOMY": "true",
+    "pdfFooterTemplate": "Copyright \u00A9  2022 Health and Social Care Information Centre\nPage {currentPage} of {totalPages}",
+    "pdfLogoRelativePath": "utils\\logo.png",
+    "APC": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_HES_APC_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_APC_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_HES_Analysis_APC",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_APC",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_Acute_Summary",
+        "salts": {
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "CSCC": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_CSCC_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_CSCC_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_CSCC_Analysis",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_CSCC\\OUTPUTS\\CSVforSEFT\\PLICS_CSCC",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_CSCC\\OUTPUTS\\CSVforSEFT\\PLICS_CSCC_Summary",
+        "salts": {
+            "CareId": "PSEUDO_KEY:DLS1408",
+            "SerReqID": "PSEUDO_KEY:DLS1409",
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "EC": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_HES_EC_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_EC_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_HES_Analysis_EC",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_AE",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_Acute_Summary",
+        "salts": {
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "OP": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_HES_OP_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_OP_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_HES_Analysis_OP",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_OP",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_Acute_Summary",
+        "salts": {
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "SI": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_HES_SI_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_SI_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_HES_Analysis_SI",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_SI",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_Acute_Summary"
+    },
+    "SWC": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_HES_SWC_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_HES_SWC_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_HES_Analysis_SWC",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_SWC",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_HES\\OUTPUTS\\CSVforSEFT\\PLICS_Acute_Summary"
+    },
+    "MHCC": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_MH_CC_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_MH_CC_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_MH_Analysis_CC",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_MH\\OUTPUTS\\CSVforSEFT\\PLICS_CC",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_MH\\OUTPUTS\\CSVforSEFT\\PLICS_MH_Summary",
+        "salts": {
+            "CareId": "Eiys7C1{lJ!BoqEk68pfTZfrdQ]b3DImZ{t$Z:Qr7HPSjp07",
+            "SerReqID": "Eiys7C1{lJ!BoqEk68pfTZfrdQ]b3DImZ{t$Z:Qr7HPSjp07",
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "MHPS": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_MH_PS_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_MH_PS_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.PLIC_MH_Analysis_PS",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_MH\\OUTPUTS\\CSVforSEFT\\PLICS_PS",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_MH\\OUTPUTS\\CSVforSEFT\\PLICS_MH_Summary",
+        "salts": {
+            "CareId": "Eiys7C1{lJ!BoqEk68pfTZfrdQ]b3DImZ{t$Z:Qr7HPSjp07",
+            "SerReqID": "Eiys7C1{lJ!BoqEk68pfTZfrdQ]b3DImZ{t$Z:Qr7HPSjp07",
+            "HSpellId": "Eiys7C1{lJ!BoqEk68pfTZfrdQ]b3DImZ{t$Z:Qr7HPSjp07",
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "IAPT": {
+        "landedFileLocation": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_SHARED\\INPUTS\\LandedFiles",
+        "dbname": "PLIC_INTEGRATED",
+        "activity_table": "PLIC_INTEGRATED.ic.PLIC_IAPT_Act_SQL",
+        "cost_table": "PLIC_INTEGRATED.ic.PLIC_IAPT_Cost_SQL",
+        "analysis_table": "PLIC_INTEGRATED.ic.IAPT_Analysis_PS",
+        "rec_table": "PLIC_INTEGRATED.ic.[PLIC_INTGD_INTREC_SQL]",
+        "csvBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_IAPT\\OUTPUTS\\CSVforSEFT\\PLICS_PS",
+        "summaryBaseDir": "\\\\ic\\IC_DME_DFS\\DME_DEV\\PLIC\\PLIC_IAPT\\OUTPUTS\\CSVforSEFT\\PLICS_IAPT_Summary",
+        "salts": {
+            "CareId": "JOHN",
+            "CareConID": "JOHN",
+            "SerReqID": "JOHN",
+            "PLEMI": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m",
+            "NHSNo": "0*kcdVff+gK3YJ59vV6j7jCx4ItZ34lm3r9XC@x1xyk6b!5m"
+        }
+    },
+    "HASHED": [
+        "CDSID",
+        "PathId",
+        "HSpellNo",
+        "HSpellId",
+        "NHSNo",
+        "PLEMI",
+        "AttID",
+        "CCLI",
+        "SerReqID",
+        "CareId",
+        "UniqServReqID",
+        "CareConID"
+    ],
+    "SKIPPED": [
+        "APCActivity_ORDINAL",
+        "Activity_ORDINAL",
+        "RecordIdentifierMatched",
+        "CstActivity_ORDINAL",
+        "IAPT_Person_ID"
+    ],
+    "AGE_FIELDS": {
+        "IAPT": "CareConDate",
+        "APC": "EpStDte",
+        "EC": "ArrDate",
+        "OP": "AppDate",
+        "CSCC": "CareDte",
+        "MHCC": "CareDte"
+    },
+    "NVARCHARFIELDS": [
+        "UniqServReqID",
+        "CareId",
+        "HSpellId",
+        "SerReqID",
+        "CareConID"
+    ]
+}

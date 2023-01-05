@@ -1,0 +1,5 @@
+Activity_ORDINAL,matchCriteria,matchCode,epiKey
+1,careID:UniqueSerReqID,10,1
+2,careID:UniqueSerReqID,10,1
+3,No match,30,1
+4,No match,30,1
