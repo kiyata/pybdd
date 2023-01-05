@@ -1,6 +1,0 @@
-OrgSubmissionID,CostRowID,ActivityRowID,OrganisationID,CollectionActivityID,CollectionActivityCnt,CollectionResourceID,TotalCost,FinancialYearStartDate
-"00000003","1","1","BRK","ODT005","5487","CPF005","516.24000000","2021-04-01"
-"00000003","2","2","BRK01","DIM006","752","CPF029","973.41000000","2021-04-01"
-"00000003","3","3","BRK01","ODT006","1234567890","CPF023","702.29000000","2021-04-01"
-"00000003","4","4","BRK01","SPS001","1282","CSC008","731.40000000","2021-04-01"
-"00000003","5","5","BRK1","ODT007","5053","CPF010","966.65000000","2021-04-01"
