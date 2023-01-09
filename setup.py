@@ -13,6 +13,7 @@ setup(
         'pylint',
         'pymysql',
         'pandas',
+        'xlrd',
         'configparser',
         'xmlschema',
         'faker',
